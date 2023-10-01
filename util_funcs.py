@@ -23,7 +23,7 @@ def harmean(arr):
 
 
 @nb.njit
-def _countTrueFalse(a, b):
+def countTrueFalse(a, b):
     countTrue = 0
     countFalse = 0
     len_ = len(a)
@@ -41,7 +41,7 @@ def _countTrueFalse(a, b):
 
 
 @nb.njit
-def _calculate_ac_coef(arr):
+def calculate_ac_coef(arr):
     sum_ = 0.0
     l = len(arr)
     for i in range(l - 1):
