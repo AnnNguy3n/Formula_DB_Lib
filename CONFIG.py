@@ -1,5 +1,5 @@
 #
-DB_PATH = "/home/nguyen/Desktop/Formula_DB_Lib/Formula_DB"
+DB_PATH = "/home/nguyen/Desktop/Formula_DB"
 
 #
 DATA_PATH = "/home/nguyen/Desktop/Formula_DB_Lib/HOSE_File3_2023_Field.xlsx"
